@@ -25,5 +25,5 @@
     "release_notes": "",
     "component_package": {}
   },
-  "min_secure_runtime": "1.0.6.1"
+  "min_secure_runtime": null
 }
