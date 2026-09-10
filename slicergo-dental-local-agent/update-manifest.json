@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "launcher": {
+    "latest_version": "1.0.5-rc3",
+    "release_date": "2026-09-10",
+    "release_notes": "",
+    "release_notes_url": null,
+    "download_page_url": "https://github.com/phrozen3d/PublicAssets/releases/tag/Phrozen-SlicerGo-Dental-Local-Agent-v1.0.5-rc3",
+    "installer": {
+      "win_x64": {
+        "url": "https://github.com/phrozen3d/PublicAssets/releases/download/Phrozen-SlicerGo-Dental-Local-Agent-v1.0.5-rc3/Phrozen.SlicerGo.Dental.Local.Agent_win_1.0.5_rc3.exe",
+        "sha256": "cd3deaf9db5d72e68f4f49fff7a8e42538621e6ee42b606bd6463b3bf83811fa",
+        "size": 273460656
+      },
+      "mac_arm64": {
+        "url": "https://github.com/phrozen3d/PublicAssets/releases/download/Phrozen-SlicerGo-Dental-Local-Agent-v1.0.5-rc3/Phrozen.SlicerGo.Dental.Local.Agent_mac_arm64_1.0.5-rc3.pkg",
+        "sha256": "ccd76de369aaf15d6823cc0cfd879652dabf40cb82516dd23881e75cae4eb73b",
+        "size": 353851964
+      }
+    }
+  },
+  "runtime": {
+    "latest_version": "1.0.5.1",
+    "release_date": "2026-09-10",
+    "release_notes": "",
+    "component_package": {}
+  },
+  "min_secure_runtime": null
+}
