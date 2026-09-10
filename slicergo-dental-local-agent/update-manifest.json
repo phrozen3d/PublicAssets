@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "launcher": {
-    "latest_version": "1.0.5-rc3",
+    "latest_version": "1.0.6.1",
     "release_date": "2026-09-10",
     "release_notes": "",
     "release_notes_url": null,
@@ -20,10 +20,10 @@
     }
   },
   "runtime": {
-    "latest_version": "1.0.5.1",
+    "latest_version": "1.0.6.1",
     "release_date": "2026-09-10",
     "release_notes": "",
     "component_package": {}
   },
-  "min_secure_runtime": null
+  "min_secure_runtime": 1.0.6.1
 }
