@@ -1,29 +1,50 @@
 {
-  "schema_version": 1,
-  "launcher": {
-    "latest_version": "1.0.5-rc3",
-    "release_date": "2026-09-10",
-    "release_notes": "",
-    "release_notes_url": null,
-    "download_page_url": "https://github.com/phrozen3d/PublicAssets/releases/tag/Phrozen-SlicerGo-Dental-Local-Agent-v1.0.5-rc3",
-    "installer": {
-      "win_x64": {
-        "url": "https://github.com/phrozen3d/PublicAssets/releases/download/Phrozen-SlicerGo-Dental-Local-Agent-v1.0.5-rc3/Phrozen.SlicerGo.Dental.Local.Agent_win_1.0.5_rc3.exe",
-        "sha256": "cd3deaf9db5d72e68f4f49fff7a8e42538621e6ee42b606bd6463b3bf83811fa",
-        "size": 273460656
-      },
-      "mac_arm64": {
-        "url": "https://github.com/phrozen3d/PublicAssets/releases/download/Phrozen-SlicerGo-Dental-Local-Agent-v1.0.5-rc3/Phrozen.SlicerGo.Dental.Local.Agent_mac_arm64_1.0.5-rc3.pkg",
-        "sha256": "ccd76de369aaf15d6823cc0cfd879652dabf40cb82516dd23881e75cae4eb73b",
-        "size": 353851964
-      }
-    }
-  },
-  "runtime": {
-    "latest_version": "1.0.7.1",
-    "release_date": "2026-09-10",
-    "release_notes": "",
-    "component_package": {}
-  },
-  "min_secure_runtime": null
+    "schema_version":  1,
+    "launcher":  {
+                     "latest_version":  "1.0.6-rc2",
+                     "release_date":  "2026-10-20",
+                     "release_notes":  "1.0.6-rc2",
+                     "release_notes_url":  null,
+                     "download_page_url":  "https://github.com/phrozen3d/PublicAssets/releases/tag/runtime-1.0.6.2",
+                     "installer":  {
+                                       "win_x64":  {
+                                                       "url":  "https://github.com/phrozen3d/PublicAssets/releases/download/runtime-1.0.6.2/Phrozen.SlicerGo.Dental.Local.Agent_win_1.0.6.2.exe",
+                                                       "sha256":  "7b50b46fb9bf5f1ddbc1b6b6c35822914d9bd615815ec134e7ab973cb0075e02",
+                                                       "size":  334052416
+                                                   },
+                                       "mac_arm64":  {
+                                                         "url":  "https://github.com/phrozen3d/PublicAssets/releases/download/runtime-1.0.6.2/Phrozen.SlicerGo.Dental.Local.Agent_mac_arm64_1.0.6.2.pkg",
+                                                         "sha256":  "4cc37e3a78b444728b9518d955bcde27b195169ca8a5e707c4c9d0d0cacc0f2d",
+                                                         "size":  398385103
+                                                     }
+                                   }
+                 },
+    "runtime":  {
+                    "latest_version":  "1.0.6.2",
+                    "release_date":  "2026-10-20",
+                    "release_notes":  "1.0.6-rc2",
+                    "component_package":  {
+                                              "win_x64":  {
+                                                              "urls":  [
+                                                                           "https://github.com/phrozen3d/PublicAssets/releases/download/runtime-1.0.6.2/component-bundle-win-x64-1.0.6.2.zip"
+                                                                       ],
+                                                              "sha256":  "cc5e48965829712f72af23c4980e0afddca06fa7497a6378dd88d2b7d5fdbbc2",
+                                                              "size":  1298686,
+                                                              "components":  {
+                                                                                 "agent":  "1.0.6.2"
+                                                                             }
+                                                          },
+                                              "mac_arm64":  {
+                                                                "urls":  [
+                                                                             "https://github.com/phrozen3d/PublicAssets/releases/download/runtime-1.0.6.2/component-bundle-mac-arm64-1.0.6.2.zip"
+                                                                         ],
+                                                                "sha256":  "fd21b024f856829b82ca1d311b82ed7f976ada250f556d87b898890ecb9c158a",
+                                                                "size":  1293405,
+                                                                "components":  {
+                                                                                   "agent":  "1.0.6.2"
+                                                                               }
+                                                            }
+                                          }
+                },
+    "min_secure_runtime":  null
 }
