@@ -14,8 +14,8 @@
       },
       "mac_arm64": {
         "url": "https://github.com/phrozen3d/PublicAssets/releases/download/runtime-1.0.6.3/Phrozen.SlicerGo.Dental.Local.Agent_mac_arm64_1.0.6.3.pkg",
-        "sha256": "a3fd37f2a2852cc1661306cccc23f4bf9b62ed897164c8ece25e05738dabe86f",
-        "size": 432172206
+        "sha256": "1b115f0fd8b7771a86a91081627f20858a3b6bc4881a4ba582f1a717b59e57a3",
+        "size": 432183587
       }
     }
   },
